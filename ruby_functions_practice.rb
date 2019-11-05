@@ -15,3 +15,15 @@ end
 def  multiply(number_one, number_two)
   return number_one * number_two
 end
+
+def divide(number_one, number_two)
+  return number_one / number_two
+end
+
+def length_of_string(string)
+  return string.length
+end
+
+def join_string(string_1, string_2)
+  return "#{string_1 }#{string_2}"
+end

@@ -91,5 +91,15 @@ def number_to_short_month_name(number_month)
 end
 
 def volume_of_cube(l,h,w)
-  return l * h * w  
+  return l * h * w
+end
+
+def volume_of_sphere(r)
+  pi = 3.1415
+  volume = ((4.0/3.0) * (pi) * (r**3))
+  return volume.round(2)
+end
+
+def fahrenheit_to_celsius(f)
+  return (f - 32) * (5/9)
 end
